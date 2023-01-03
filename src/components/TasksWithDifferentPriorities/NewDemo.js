@@ -37,7 +37,7 @@ class NewDemo extends React.Component {
     setTimeout( () => this.setState( prevState => {
       return { count: prevState.count + 1 }
     } ), 500 )
-    setTimeout( () => button.click(), 600)
+    setTimeout( () => button.click(), 550)
   }
   onDragHandler = e => {
     this.setState({
